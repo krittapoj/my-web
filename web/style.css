@@ -1,0 +1,21 @@
+#Text{
+    color: red;
+   font-size: 18px;
+     }
+#roundCorners{
+    border-radius: 25px;
+    padding: 10px;
+    width: 150px;
+    height: 20px;
+    background-color: brown;
+    }
+    /*Class Css*/
+    .mycontainer {
+        width:100%;
+        overflow:auto;
+      }
+    .mycontainer div {
+        width:33%;  
+        float:left;
+      }
+     /*Class Css*/
