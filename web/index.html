@@ -19,7 +19,6 @@
     </style>
     <link rel="stylesheet" href="style.css"> <!---Link Css-->
     <!-----Css----->
-    <script src="app.js"></script> <!---Java Script-->
 </head>
         <!---HTMKL-->
         <body>
@@ -34,14 +33,13 @@
                    <!---- document.getElementById("ใส่id html").innerHTML ---->
                         <p id="demo">นายลองกดปุ่มนี้ดูสิ</p>
                         <button type="button" onclick='document.getElementById("demo").innerHTML = "กดหาแม่มึงหรอ!"'>กดสิ</button>
-                        <script>
+                       <!--- <script>
                             var name = "john"
                             console.log(name)
                         </script>
-                        <p id="result"></p>
-                        <div id="video"></div>
-                        <script src="app.js"></script> <!---Java Script-->
+                        <script src="app.js"></script> <!---Java Script--> 
                         <!---Java Script-->
+                    -->
         </center>
 <div class="mycontainer"> <!--เรียกClass mycotainer จาก CSS-->
         <div style="background-color:#FFF4A3;">
@@ -64,8 +62,14 @@
     <center>
     ให้กำลังใจ
     <input type="text">
-    <div id="video"></div>
-    <script src="app.js"></script> <!---Java Script-->
+    </center>
+</form>
+<form>
+    <center>
+        <h1>คำนวนอาหาร</h1>
+        <h3 id="result"></h3>
+        <div id="price-lsit"></div>
+        <script src="app.js"></script> 
     </center>
 </form>
 
