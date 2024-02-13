@@ -8,7 +8,7 @@
         console.log("hello" + counter)
     }*/
 
-let qrt = prompt("จำนวนรอบในการกด")
+/*let qrt = prompt("จำนวนรอบในการกด")*/
 let sum = 0
 for(var i = 1; i <= qrt; i++)
 {
@@ -18,4 +18,22 @@ for(var i = 1; i <= qrt; i++)
     document.getElementById("result").innerHTML = "ราคารวม" + sum + "บาท"
 }
 
+/*let round = prompt("คุณจะเล่นทั้งหมดกี่รอบ")*/
+    for(var i = 0; i < round ; i ++){
+        var answer = prompt("หัว หรือ ลาบ")
+        var random = ""
+        if(Math.floor(Math.random()*10) <= 4){
+            random = "หัว"
+        }
+        else{
+            random = "ก้อย"
+        }
+    if(answer == random){
+        alert("ถูก!")
+    }
+    else{
+        alert("ผิด")
+    }
+
+    }
     
