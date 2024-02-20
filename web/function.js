@@ -12,3 +12,10 @@ function sayhello(userName, userlastName)
     return "Hello" + userName + userlastName
 }
 alert(sayhello("name","lastname"))
+
+function toCelsiusProgram(){
+    alert(toCelsiusProgram(150));
+}
+function toFahrenheitProgram(){
+    alert(toFahrenheitProgram(32));
+}
